@@ -255,25 +255,32 @@ def equaliser(
     
     if importParams:
         # Get most recent file from eqtraining directory:
-        paramsFile = max(filesInPath(save_dir + "eqtraining/"), key=os.path.getmtime)
-        eqParams = []
-        with open(paramsFile, 'r') as jsonFile:
-            eqData = json.load(jsonFile)
-            eqParams = eqData['Individual']
+        if os.path.isdir(save_dir + "eqtraining/"):
+            files = filesInPath(save_dir + "eqtraining/")
+            if len(list(files)) > 0:
+                paramsFile = max(files, key=os.path.getmtime)
+                eqParams = []
+                with open(paramsFile, 'r') as jsonFile:
+                    eqData = json.load(jsonFile)
+                    eqParams = eqData['Individual']
 
-        # Convert 'individual' array to gains and q arrays:
-        importedGains = []
-        importedQs = []
+                # Convert 'individual' array to gains and q arrays:
+                importedGains = []
+                importedQs = []
 
-        lowq = eqParams[0]
-        eqParams = eqParams[1:]
-        for i in range(len(BANDS)):
-            print(2*i,2*i+1)
-            importedQs.append(eqParams[ 2 * i ])
-            importedGains.append(eqParams[ 2 * i + 1])
+                lowq = eqParams[0]
+                eqParams = eqParams[1:]
+                for i in range(len(BANDS)):
+                    print(2*i,2*i+1)
+                    importedQs.append(eqParams[ 2 * i ])
+                    importedGains.append(eqParams[ 2 * i + 1])
 
-        gains = importedGains
-        q_factors = importedQs
+                gains = importedGains
+                q_factors = importedQs
+            else:
+                logger.info(f"No files in directory: <{save_dir + "eqtraining/"}>.")
+        else:
+            logger.info(f"Directory: <{save_dir + "eqtraining/"}> Does not exist.")
     
     # Remove any negative q-factors
     for i in range(len(q_factors)):
@@ -911,7 +918,7 @@ def run_ga(config: DictConfig):
     population = toolbox.population(n=50)  # Set the population size
 
     # Define the number of generations and probabilities
-    ngen = 10
+    ngen = 50
     cxpb = 0.5
     mutpb = 0.2
 
@@ -927,5 +934,7 @@ def run_ga(config: DictConfig):
 
 # pylint: disable = no-value-for-parameter
 if __name__ == "__main__":
+    # run_ga() will run the genetic algorithm on samples of the dataset:
     run_ga()
+    # enhance() will run the enhancement procedure on the entire database, using the most recent individual:
     # enhance()

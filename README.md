@@ -4,6 +4,20 @@
 
 ## Installation
 
+### Requirements
+
+- Numpy
+- PyTorch
+- MatplotLib
+- Librosa
+- Audio_DSPy
+- re
+- Subprocess
+- Random
+- os
+- Soundfile
+- DEAP
+
 ### System
 
 To install the baseline PyClarity system, see the instructions here: https://github.com/claritychallenge/clarity. Upon installing PyClarity and it's data, simply replace the baseline `enhance.py` file with the one in this repository, and make sure to modify the `config.yaml` file in the baseline code to include the relevant file paths to the data, as well as the file paths inside the modified `enhance.py`.

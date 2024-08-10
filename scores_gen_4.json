@@ -1,0 +1,55 @@
+{
+    "Individual": [0.95, 0.6, 16.0, 1.3, 12.5, 1.5, 7.5, 1.6, 0.5, 0.8, 5.0, 2.2, 7.0, 1.5, -8.0], 
+    "HAAQI": {
+        "scene_10001: A Classic Education - NightOwl-hlp_0056,  L0066": {
+            "Left Score": 0.1005847789079448, 
+            "Right Score": 0.09175389425571862, 
+            "Mean Score": 0.09616933658183172
+        }, 
+        "scene_10001: A Classic Education - NightOwl-hlp_0056,  L0057": {
+            "Left Score": 0.10755615694893988, 
+            "Right Score": 0.10661335876126656, 
+            "Mean Score": 0.10708475785510321
+        }, 
+        "scene_10002: A Classic Education - NightOwl-hlp_0003,  L0099": {
+            "Left Score": 0.09989466051657636, 
+            "Right Score": 0.0976669078511529, 
+            "Mean Score": 0.09878078418386463
+        }, 
+        "scene_10002: A Classic Education - NightOwl-hlp_0003,  L0051": {
+            "Left Score": 0.09632403478589133, 
+            "Right Score": 0.10064293008592287, 
+            "Mean Score": 0.0984834824359071
+        }, 
+        "scene_10003: A Classic Education - NightOwl-hlp_0119,  L0053": {
+            "Left Score": 0.09913594539697115, 
+            "Right Score": 0.1134063812467827, 
+            "Mean Score": 0.10627116332187693
+        }, 
+        "scene_10003: A Classic Education - NightOwl-hlp_0119,  L0010": {
+            "Left Score": 0.11302635927602618, 
+            "Right Score": 0.1217883079993164, 
+            "Mean Score": 0.1174073336376713
+        }, 
+        "scene_10004: A Classic Education - NightOwl-hlp_0014,  L0032": {
+            "Left Score": 0.11190030331302864, 
+            "Right Score": 0.12385628989675951, 
+            "Mean Score": 0.11787829660489407
+        }, 
+        "scene_10004: A Classic Education - NightOwl-hlp_0014,  L0078": {
+            "Left Score": 0.12542656597793023, 
+            "Right Score": 0.09891512645542339, 
+            "Mean Score": 0.1121708462166768
+        }, 
+        "scene_10005: Actions - Devil's Words-hlp_0008,  L0022": {
+            "Left Score": 0.12357538741464622, 
+            "Right Score": 0.11720216579556077, 
+            "Mean Score": 0.1203887766051035
+        }, 
+        "scene_10005: Actions - Devil's Words-hlp_0008,  L0047": {
+            "Left Score": 0.10799267442327967, 
+            "Right Score": 0.10914205457851853, 
+            "Mean Score": 0.1085673645008991
+        }
+    }
+}

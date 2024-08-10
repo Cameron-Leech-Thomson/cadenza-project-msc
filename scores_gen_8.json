@@ -1,0 +1,55 @@
+{
+      "Individual": [1.35, 1.2, 13.0, 1.1, 11.5, 0.6, 3.0, 1.5, 4.0, 1.9, 6.5, 2.0, 7.0, 0.2, -2.5], 
+      "HAAQI": {
+            "scene_10001: A Classic Education - NightOwl-hlp_0056,  Listener: L0066": {
+                  "LeftScore": 0.1331151782390741, 
+                  "RightScore": 0.13059241270555236, 
+                  "MeanScore": 0.13185379547231324
+            }, 
+            "scene_10001: A Classic Education - NightOwl-hlp_0056,  Listener: L0057": {
+                  "LeftScore": 0.1365120809178002, 
+                  "RightScore": 0.144683024049514, 
+                  "MeanScore": 0.1405975524836571
+            }, 
+            "scene_10002: A Classic Education - NightOwl-hlp_0003,  Listener: L0099": {
+                  "LeftScore": 0.14968200527872305, 
+                  "RightScore": 0.13515105022445664, 
+                  "MeanScore": 0.14241652775158986
+            }, 
+            "scene_10002: A Classic Education - NightOwl-hlp_0003,  Listener: L0051": {
+                  "LeftScore": 0.14246743285710517, 
+                  "RightScore": 0.1275872283988214, 
+                  "MeanScore": 0.1350273306279633
+            }, 
+            "scene_10003: A Classic Education - NightOwl-hlp_0119,  Listener: L0053": {
+                  "LeftScore": 0.14454807886041318, 
+                  "RightScore": 0.15212836223472093, 
+                  "MeanScore": 0.14833822054756707
+            }, 
+            "scene_10003: A Classic Education - NightOwl-hlp_0119,  Listener: L0010": {
+                  "LeftScore": 0.14461795861455248, 
+                  "RightScore": 0.14590261845315947, 
+                  "MeanScore": 0.14526028853385597
+            }, 
+            "scene_10004: A Classic Education - NightOwl-hlp_0014,  Listener: L0032": {
+                  "LeftScore": 0.1453342744125581, 
+                  "RightScore": 0.15501468956685927, 
+                  "MeanScore": 0.15017448198970867
+            }, 
+            "scene_10004: A Classic Education - NightOwl-hlp_0014,  Listener: L0078": {
+                  "LeftScore": 0.1510253532603142, 
+                  "RightScore": 0.1371971971515809, 
+                  "MeanScore": 0.14411127520594755
+            }, 
+            "scene_10005: Actions - Devil's Words-hlp_0008,  Listener: L0022": {
+                  "LeftScore": 0.14230506780045246, 
+                  "RightScore": 0.14397861248420296, 
+                  "MeanScore": 0.14314184014232773
+            }, 
+            "scene_10005: Actions - Devil's Words-hlp_0008,  Listener: L0047": {
+                  "LeftScore": 0.14057359346619908, 
+                  "RightScore": 0.13923080874004262, 
+                  "MeanScore": 0.13990220110312085
+            }
+      }
+}

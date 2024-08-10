@@ -36,3 +36,36 @@ python enhance.py
 ```
 
 Happy Training!
+
+## Individuals:
+
+The best individual of each generation is saved as a .JSON file, called `scores_<mean of parameters>`. The .JSON file is in the following format:
+```
+{
+  "Individual": [
+  <Filter 1 Q-Factor>,
+  <Filter 2 Q-Factor>,
+  <Filter 2 Gain>,
+  <Filter 3 Q-Factor>,
+  <Filter 3 Gain>,
+  <Filter 4 Q-Factor>,
+  <Filter 4 Gain>,
+  <Filter 5 Q-Factor>,
+  <Filter 5 Gain>,
+  <Filter 6 Q-Factor>,
+  <Filter 6 Gain>,
+  <Filter 7 Q-Factor>,
+  <Filter 7 Gain>,
+  <Filter 8 Q-Factor>,
+  <Filter 8 Gain>
+  ], 
+      "HAAQI": {
+            "<Scene Label>: <Track Name>,  Listener: <Listener Label>": {
+                  "LeftScore": <Left Ear HAAQI Score>, 
+                  "RightScore": <Right Ear HAAQI Score>, 
+                  "MeanScore": <Mean HAAQI Score>
+            },
+            ... x 10
+            }
+}
+```

@@ -39,7 +39,7 @@ Happy Training!
 
 ## Individuals:
 
-The best individual of each generation is saved as a .JSON file, called `scores_<mean of parameters>`. The .JSON file is in the following format:
+The best individual of each generation is saved as a .JSON file, called `scores_<mean of parameters>.JSON`. The .JSON file is in the following format:
 ```
 {
   "Individual": [
